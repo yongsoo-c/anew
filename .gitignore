@@ -1,3 +1,11 @@
 node/**/node_modules
 
- .env
+.env
+
+ #nodejs node_modules
+ node/**/node_modules
+ node/**/package-lock.json
+
+  #mongodb backup / json
+  mongodb/**/*.json 
+  mongodb/backup
